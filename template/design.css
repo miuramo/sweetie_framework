@@ -1,0 +1,47 @@
+h1 {
+  background-color: #fcc;
+  font-size: 60px;
+  padding: 10px; /* 文字と枠線のあいだの詰め物サイズ  */
+   /* border: 3px solid #999;  */ 
+}
+p {
+  background-color: #fee;
+}
+h2 {
+  background-color: #cde;
+  border: 5px solid #9ac;
+  padding: 3px 10px;
+}
+
+h3 {
+  background-color: #9f9;
+  border: 5px solid #695;
+  padding: 3px 20px;
+
+  margin: 0px 20px;
+}
+
+table.bd {
+  border: 4px dotted #cc0;
+  /*    border-collapse: collapse;*/
+  border-collapse: separate;
+  border-spacing: 0px; /* separate のときだけ有効*/
+
+  margin: 10px;
+}
+
+table.bd tr th {
+  background-color: #aaa;
+  border: 2px solid #faa;
+}
+
+table.bd tr td {
+  background-color: #aff;
+  border: 1px solid #999;
+  text-align: center;
+}
+
+td#bold {
+  font-weight: bold;
+}
+
