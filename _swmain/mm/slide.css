@@ -1,0 +1,26 @@
+.panel {
+    position: fixed;
+    top:40px;
+    left: -260px;
+    background: #ddd;
+    width: 260px;
+    height: 650px;
+    padding: 6px;
+    -webkit-transition-duration: 0.7s;
+    -moz-transition-duration: 0.7s;
+    transition-duration: 0.7s;
+    -o-transition-duration: 0.7s;
+    -webkit-border-radius: 0 5px 5px 0;
+    -moz-border-radius: 0 5px 5px 0;
+    border-radius: 0 5px 5px 0;
+    z-index:100;
+}
+.panel:hover {
+    left: 0;
+}
+.left0 {
+    left: 0;
+}
+.left260 {
+    left: -260px !important;
+}
