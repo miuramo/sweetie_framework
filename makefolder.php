@@ -125,10 +125,7 @@ if (!$allowed_by_ip) {
 	   if (!is_dir("img")) mkdir("img");
 	   exec("ln -s ../_swmain ./_edit");
 	   $pass = substr(hash("sha256",$dst.$sweetiekey),strlen($dst),12);
-       sedreplace("phpliteadmin/phpliteadmin.config.php","hogehoge",$pass); // change pass
-       sedreplace("phpliteadmin/phpliteadmin.config.php","0950ed7f0555",$pass); // change pass
-       sedreplace("phpliteadmin/phpliteadmin.config.php","108005d50330",$pass); // change pass
-       sedreplace("phpliteadmin/phpliteadmin.config.php","1b7103b6d4df",$pass); // change pass
+       sedreplace("phpliteadmin/phpliteadmin.config.php","xxxxxxxx",$pass); // change pass
        exec("/bin/chmod 444 phpliteadmin/phpliteadmin.php");
 
        // make and move davuser.db
